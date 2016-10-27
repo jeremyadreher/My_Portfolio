@@ -1,0 +1,156 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+    <title> Jeremy Dreher's Portfolio </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://use.fontawesome.com/9911ddc926.js"></script>
+</head>
+
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+    <ul class="w3-navbar" id="myNavbar">
+        <li><a href="#">HOME</a></li>
+        <li class="w3-hide-small w3-right">
+        <a href="#" class="w3-hover-red"><i class="fa fa-search"></i></a>
+        </li>
+    </ul>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-text-white">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+        <span class="w3-center w3-padding-large w3-wide w3-animate-opacity w3-jumbo w3-dancing_script text-shadow">Jeremy Dreher</span>
+        </br>
+        <span class="w3-center w3-padding-xxlarge w3-wide w3-animate-opacity w3-medium roboto text-shadow">Front End Web Developer</span>
+    </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64">
+    <h3 class="w3-center">ABOUT ME</h3>
+    <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+        qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+        <img src="WS Front Desk.jpg" 
+             class="w3-round w3-image" 
+             alt="Photo of Me" 
+             width="500" 
+             height="333">
+        </div>
+
+        <!-- Hide this text on small devices -->
+        <div class="w3-col m6 w3-hide-small w3-padding-large">
+        <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+    <p class="w3-large w3-center w3-padding-16"><em>My skillset by language:</em></p>
+    <p class="w3-wide" id="html">HTML</p>
+    <div class="w3-progress-container">
+        <div class="w3-progressbar w3-teal" style="width:75%"></div>
+    </div>
+    <p class="w3-wide" id="css">CSS</p>
+    <div class="w3-progress-container">
+        <div class="w3-progressbar w3-purple" style="width:50%"></div>
+    </div>
+    <p class="w3-wide" id="javascript">JavaScript</p>
+    <div class="w3-progress-container">
+        <div class="w3-progressbar w3-indigo" style="width:25%"></div>
+    </div>
+    </div>
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div class="bgimg-2 w3-display-container">
+    <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-light-grey w3-wide text-shadow">PORTFOLIO</span>
+    </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64">
+    <h3 class="w3-center">WEB DEVELOPMENT</h3>
+    <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.<br> Click on the images to make them bigger</em></p><br>
+
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+        <img src="WorkSource Vancouver.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="WS Vancouver Home Page">
+        </div>
+
+        <div class="w3-col m3">
+        <img src="EE_About.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="EE Home Page">
+        </div>
+
+        <div class="w3-col m3">
+        <img src="/w3images/p3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
+        </div>
+
+        <div class="w3-col m3">
+        <img src="/w3images/p4.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
+        </div>
+    </div>
+ 
+
+   
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+    <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright" title="Close Modal Image">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
+    </div>
+    </div>
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container">
+    <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-light-grey w3-wide text-shadow">CONTACT</span>
+    </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-padding-64">
+    <div class="w3-row w3-padding-32 w3-section">
+        <div class="w3-col m4 w3-container"></div>
+        <div class="w3-col m8 w3-container w3-section">
+            <div class="w3-large w3-margin-bottom">
+                <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right w3-center"></i> Vancouver, WA<br>
+                <i class="fa fa-mobile fa-fw w3-hover-text-black w3-xlarge w3-margin-right w3-center"></i> 801-979-6051<br>
+                <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right w3-center"></i> jeremyadreher@gmail.com<br>
+            </div>
+            <div>
+                <a class="fa fa-linkedin fa-2x w3-hover-text-black" href="https://www.linkedin.com/in/jeremyadreher" target="_blank"></a>
+                <a class="fa fa-github fa-2x w3-hover-text-black" href="https://github.com/jeremyadreher" target="_blank"></a>
+                <a class="fa fa-codepen fa-2x w3-hover-text-black" href="http://codepen.io/JeremyADreher/" target="_blank"></a>
+                <a class="fa fa-free-code-camp fa-2x w3-hover-text-black" href="https://www.freecodecamp.com/jeremyadreher" target="_blank" ></a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+     <div class="bgimg-3 w3-display-container">
+    <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-light-grey w3-wide text-shadow"></span>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
