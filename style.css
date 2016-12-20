@@ -3,7 +3,7 @@ body, html {
     height: 100%;
     color: #777;
     line-height: 1.8;
-    
+    background-image: url("C:\LocalSourceFiles\Scott_the_Barber\brick_background.jpg");
 }
 
 
@@ -17,6 +17,10 @@ body, html {
 
 .text-shadow {
     text-shadow: 2px 2px black;
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 30px gray;
 }
 
 #html {
