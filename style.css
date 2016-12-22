@@ -3,8 +3,35 @@ body, html {
     height: 100%;
     color: #777;
     line-height: 1.8;
-    background-image: url("C:\LocalSourceFiles\Scott_the_Barber\brick_background.jpg");
 }
+
+
+
+/* Skillset Bars */
+#htmlBar{
+    background-color: #023B42;
+}
+
+#cssBar {
+    background-color: #03565E;
+}
+
+#sqlBar{
+    background-color: #054721;
+}
+
+#jsBar{
+    background-color: #0E771A;
+}
+
+#csBar{
+    background-color: #014D87;
+}
+
+#pythonBar{
+    background-color: #A34B7E;
+}
+
 
 
 .w3-dancing_script {
@@ -23,17 +50,6 @@ body, html {
     box-shadow: 10px 10px 30px gray;
 }
 
-#html {
-    color: teal;
-}
-
-#css {
-    color: purple;
-}
-
-#javascript {
-    color: indigo;
-}
 
 a {
     text-decoration: none;
