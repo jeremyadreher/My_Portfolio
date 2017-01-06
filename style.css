@@ -6,7 +6,7 @@ body, html {
 }
 
 .body{
-    background-image: url('brick_background.jpg');
+    background-image: url('images/brick_background.jpg');
 }
 
 .contentBG{
@@ -79,24 +79,24 @@ a {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url('Trees_Sky.jpg');
+    background-image: url('images/Trees_Sky.jpg');
     min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("Roadside.jpg");
+    background-image: url("images/Roadside.jpg");
     min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("Stars_2.jpg");
+    background-image: url("images/Stars_2.jpg");
     min-height: 400px;
 }
 
 .bgimg-4 {
-    background-image: url("Stars.jpg");
+    background-image: url("images/Stars.jpg");
     min-height: 200px;
 }
 
