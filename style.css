@@ -14,11 +14,6 @@ body, html {
     padding: 10px;
 }
 
-.portImages{
-    height: 220px;
-    width: 456px;
-}
-
 .portDesc{
     text-align: justify;
 }
