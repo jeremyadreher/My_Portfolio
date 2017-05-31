@@ -18,7 +18,12 @@ body, html {
     text-align: justify;
 }
 
-/* Skillset Bars */
+.portHeaders{
+    font-family: 'Diplomata', cursive;
+    color: darkslategray;
+}
+
+/* Skillset Bars 
 #htmlBar{
     background-color: #023B42;
 }
@@ -42,7 +47,7 @@ body, html {
 #pythonBar{
     background-color: #A34B7E;
 }
-
+*/
 
 
 .w3-dancing_script {
